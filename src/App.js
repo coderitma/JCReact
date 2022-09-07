@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />}>
           <Route index element={<Beranda />} />
-          <Route path='about/:nama/:umur' element={<About />} />
+          <Route path='about/:nama' element={<About />} />
           <Route path='*' element={<NotFound />} />
         </Route>
       </Routes>
